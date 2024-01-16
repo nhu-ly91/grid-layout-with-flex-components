@@ -10,8 +10,8 @@ main{
 
 .emojis{
     display: grid;
-    grid-template-rows: 300px 320px;
-    grid-template-columns: 420px 420px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 30% 30%;
     gap: 20px;
 }
 
@@ -28,7 +28,7 @@ main{
 .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
-    width: 385px;
+    width: 100%;
 }
   
 .emoji a {
@@ -37,8 +37,7 @@ main{
     color: white;
     padding: 1rem;
     border-radius: 8px;
-    width: 92%;
-
+    width: 95%;
 }
   
 .icon {
