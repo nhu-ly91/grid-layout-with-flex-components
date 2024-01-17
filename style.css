@@ -2,16 +2,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
 }
-  
-main{
-    padding-left: 5px;
-    padding-right: 5px;
-}
 
 .emojis{
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-columns: 30% 30%;
+    grid-template-columns: auto auto;
     gap: 20px;
 }
 
